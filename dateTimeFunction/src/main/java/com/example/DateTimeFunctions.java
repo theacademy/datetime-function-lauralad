@@ -57,6 +57,7 @@ public class DateTimeFunctions {
 	 */
 	public static String getTimeDifference(LocalDate date1, LocalDate date2) {
 		//YOUR CODE STARTS HERE
+
 		//first save the difference in a Period object,
 		//then format the requested output in a String format to return
 		Period dateDifference = date1.until(date2);
